@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
+
+
+
+
 </head>
 <body>
-
+https://github.com/saurabhp0007/Tasker/assets/105418511/2a95551f-d4b5-47d8-83c3-fcf8472253a4
   <h1>Tasker</h1>
 
   <h2>Local Development Setup</h2>
