@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Project Name - README</title>
+</head>
+<body>
 
-## Getting Started
+  <h1>Your Project Name</h1>
 
-First, run the development server:
+  <h2>Local Development Setup</h2>
 
-```bash
+  <p>To run this project locally, you need to set up two configuration files:</p>
+
+  <h3>1. <code>.env.local</code></h3>
+
+  <p>Create a file named <code>.env.local</code> in the root directory of your project and add the following configuration:</p>
+
+  <pre>
+    <code>
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_YXJ0aXN0aWMtc25haWwtNzIuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_TxTtMJ2R7AhKlgzDjMOxVUqjfL95vSnn7r5UEoiwO4
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/signin
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/signup
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_OUT_URL=/signin
+    </code>
+  </pre>
+
+  <h3>2. <code>.env</code></h3>
+
+  <p>Create another file named <code>.env</code> in the root directory of your project for server-side environment variables. Add the following configuration:</p>
+
+  <pre>
+    <code>
+DATABASE_URL="mongodb+srv://saurabhpanday21212:Nohdt4LZlZTikzUl@cluster1.rdnnojw.mongodb.net/TASKER?retryWrites=true&amp;w=majority"
+    </code>
+  </pre>
+
+  <h2>Running Locally</h2>
+
+  <ol>
+    <li>Clone this repository.</li>
+
+    <pre>
+      <code>
+git clone https://github.com/your-username/your-project.git
+cd your-project
+      </code>
+    </pre>
+
+    <li>Install dependencies.</li>
+
+    <pre>
+      <code>
+npm install
+# or
+yarn install
+      </code>
+    </pre>
+
+    <li>Start the development server.</li>
+
+    <pre>
+      <code>
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+      </code>
+    </pre>
+  </ol>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <p>The project should now be running locally. Access it in your web browser at <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  <p>Feel free to customize this README to include any additional setup steps or information specific to your project.</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+</body>
+</html>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
