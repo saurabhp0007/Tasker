@@ -3,8 +3,11 @@ import React from 'react'
 import { useGlobalState } from '../context/globalProvider';
 import Tasks from '../Components/Tasks/tasks';
 
+
+const { completedTask } = useGlobalState();
+
 function page() {
-  const { completedTask } = useGlobalState();
+  
   return <Tasks tasks={completedTask} title="Completed Tasks"/>
      
 }
