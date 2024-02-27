@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Project Name - README</title>
+  <title>Tasker - README</title>
 </head>
 <body>
 
-  <h1>Your Project Name</h1>
+  <h1>Tasker</h1>
 
   <h2>Local Development Setup</h2>
 
@@ -19,8 +19,8 @@
 
   <pre>
     <code>
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_YXJ0aXN0aWMtc25haWwtNzIuY2xlcmsuYWNjb3VudHMuZGV2JA
-CLERK_SECRET_KEY=sk_test_TxTtMJ2R7AhKlgzDjMOxVUqjfL95vSnn7r5UEoiwO4
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=YOUR DATA SHOULD BE HERE
+CLERK_SECRET_KEY=YOUR DATA SHOULD BE HERE
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/signin
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/signup
@@ -36,7 +36,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_OUT_URL=/signin
 
   <pre>
     <code>
-DATABASE_URL="mongodb+srv://saurabhpanday21212:Nohdt4LZlZTikzUl@cluster1.rdnnojw.mongodb.net/TASKER?retryWrites=true&amp;w=majority"
+DATABASE_URL="mongodb+srv://YOUR DATA SHOULD BE HERE:YOUR DATA SHOULD BE HERE@cluster1.rdnnojw.mongodb.net/TASKER?retryWrites=true&amp;w=majority"//YOUR DATA SHOULD BE HERE
     </code>
   </pre>
 
@@ -47,7 +47,7 @@ DATABASE_URL="mongodb+srv://saurabhpanday21212:Nohdt4LZlZTikzUl@cluster1.rdnnojw
 
     <pre>
       <code>
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/saurabhp0007/Tasker.git
 cd your-project
       </code>
     </pre>
