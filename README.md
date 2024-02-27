@@ -10,7 +10,11 @@
 
 </head>
 <body>
-https://github.com/saurabhp0007/Tasker/assets/105418511/2a95551f-d4b5-47d8-83c3-fcf8472253a4
+
+
+Uploading Sequence 01.mp4…
+
+
   <h1>Tasker</h1>
 
   <h2>Local Development Setup</h2>
@@ -46,8 +50,8 @@ DATABASE_URL="mongodb+srv://YOUR DATA SHOULD BE HERE:YOUR DATA SHOULD BE HERE@cl
 
   <h2>Running Locally</h2>
 
-  <ol>
-    <li>Clone this repository.</li>
+  
+   Clone this repository.
 
     <pre>
       <code>
