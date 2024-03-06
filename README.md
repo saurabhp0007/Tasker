@@ -66,8 +66,7 @@ cd your-project
 
     <li>Install dependencies.</li>
 
-    <pre>
-      <code>
+    
 npm install
 # or
 yarn install
